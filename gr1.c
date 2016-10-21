@@ -19,6 +19,7 @@ printf("Graphics Error:%s\n",grapherrormsg(errorcode));
 getch();
 exit(1);
 }*/
+
 printf("%d",getmaxx());
 printf("%d",getmaxy());
 line(0,0,getmaxx(),getmaxy());
